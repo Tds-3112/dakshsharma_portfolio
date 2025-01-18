@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksh Portfolio</title>
+    <link rel="shortcut icon" href="Images/Me1.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleport.css">
+    <script src="https://kit.fontawesome.com/9c74b57046.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+
+    <div class="container">
+        <nav>
+            <img src="Images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li> 
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Daksh Sharma</span><br>From India </h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am Daksh Sharma, a second year software Engineering student at B.S. Anangpuria Institute of Technology and Management. Motivated and diligent software Engineering student with a strong academic background.
+                    Seeking a good opportunity to leverage coding skills and contribute to a dynamic team in a forward-thinking organization.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML and CSS</span><br>Created a responsive website for a local business</li>
+                        <li><span>C and C++</span><br>Adept at creating efficient, high-quality code    </li>
+                        <li><span>Javascript</span><br> Proficiency in the JavaScript programming language, including knowledge of APIs, library APIs, and npm packages </li>
+                        <li><span>DSA</span><br>Passionate about building models that fix problems. It include machine learning, problem solving, programming, and creative thinking.</li>
+                        <li><span>Soft skills</span><br>Highlight soft skills like communication, presentation, critical thinking, and attention to detail</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>20XX-20XX</span><br>Google</li>
+                        <li><span>20XX-20XX</span><br>Microsoft</li>
+                        <li><span>20XX-</span><br>Apple</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-2027</span><br>Btech (Information and Technology) from B.S. Anangpuria Institute of Technology and Management</li>
+                        <li><span>2022-2023</span><br>12th from Prince Sr.Sec. School</li>
+                        <li><span>2020-2021</span><br>10th from Prince Sr.Sec. School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Servives</h1>    
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>A web services developer provides recommendations to the government on enterprise system design, implementation, optimization, and more.</p>
+            <a href="#">Learn more</a>
+          </div>  
+          <div>
+            <i class="fa-brands fa-digital-ocean"></i>
+            <h2>Digital Platform Development</h2>
+            <p>Digital platform development is the process of creating a platform that allows users to interact with a business or with each other.</p>
+            <a href="#">Learn more</a>
+          </div> 
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Innovation Consulting & Digital Advisory</h2>
+            <p>Innovation consulting and digital advisory are services that help businesses develop new ideas, strategies, and technologies to remain competitive.</p>
+            <a href="#">Learn more</a>
+          </div> 
+        </div>    
+    </div>
+</div>
+<!-----------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/ace.png">
+                <div class="layer">
+                    <h3>ACE TO ASSIST-A virtual assistant</h3>
+                    <p>ACE is an idea inspired by real-life virtual assistants such as her Cortana and Siri for their respective Windows and iOS platforms that perform various tasks from the command line and create a user-friendly interface.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to a talented peoples around the world.
+                    Dowload it from Play store / App store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app connects you to a talented peoples around the world.
+                    Dowload it from Play store / App store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>This app connects you to a talented peoples around the world.
+                    Dowload it from Play store / App store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------contacts------------>
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>the.dakshsharma3112@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8929246468</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/daksh-sharma-aa5ba6290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Tds-3112"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/19eJeaZiA1/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/the.dakshsharma?igsh=ZTBxNzlwdXIwaDkw"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/the_dakshsh31"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="Images/my-cv.pdf" download class="btn btn2">Download Curriculum Vitae</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Daksh Sharma.</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzqfGKAmsGWoyR8Sy5GC18dX_sIlyeXxKwBqwwsADVW0xDlko-J9Ark4V9pS6MV4xiJ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>    
